@@ -1,0 +1,23 @@
+clear
+blue='\e[1;34m'
+green='\e[0;23m'
+purple='\e[1;35m'
+cyan='\e[1;36m'
+red='\e[1;31m'
+echo
+cd login
+python Riel.py
+cd
+echo -ne '\e[1;34mToday is:\t\t\e[1;31m' Wed Mar  4 20:22:25 WIB 2020; echo ''
+echo -e '\e[1;34mKernel Information: \t\e[1;31m' Linux 4.4.83 armv7l
+echo
+echo -e '\e[0;36m' 'HARIMAU CYBER TEAM SECURITY'
+echo -e '\e[0;36m' ''the quieter you become, the more you able to hear''
+echo
+echo -e '\e[0;35m' '<|-----------------------------------------------------------------|>'
+echo
+command_not_found_handle() {
+        /data/data/com.termux/files/usr/libexec/termux/command-not-found 
+}
+
+PS1='\[\e[37m\]┌─[\[\e[37m\]\T\[\e[31m\]]─────\e[1;49m{ Ariel Sandy Permana }\e[0;31m───[\#]\n|\n\e[0;31m└─[\[\e[31m\]\e[0;31m\W\[\e[31m\]]────►\e[1;34m'
