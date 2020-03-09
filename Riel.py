@@ -1,3 +1,6 @@
+# NGAPAIN? MAU RECODE?
+# GA USAH RECODE LAH LU GUNAKAN AJA
+# GA BERMORAL TOLOOOL
 from getpass import getpass
 import os
 import time
